@@ -81,9 +81,10 @@
   line-height: 1.65; }
 
 #game a {
-  color: #776e65;
+  background: #d6516d;
+  text-decoration: none;
+  color: #f9f6f2;
   font-weight: bold;
-  text-decoration: underline;
   cursor: pointer; }
 
 #game strong.important {
@@ -174,7 +175,7 @@
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
-      background: rgba(237, 194, 46, 0.5);
+      background: rgba(214, 81, 109, 0.5);
       color: #f9f6f2; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
@@ -318,10 +319,16 @@
   }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background: #f67c5f;
+    background-image: url("../img/vj3.JPG");
+    font-size: 0px;
+  }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
+    background: #f65e3b;
+    background-image: url("../img/vj4.JPG");
+    font-size: 0px;
+  }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
@@ -480,6 +487,7 @@
 
 #game .restart-button{
   color: #f9f6f2;
+  text-decoration: none;
 }
 .restart-button {
   display: inline-block;
@@ -586,7 +594,7 @@
         .game-container .game-message a.keep-playing-button {
           display: none; }
       .game-container .game-message.game-won {
-        background: rgba(237, 194, 46, 0.5);
+        background: rgba(214, 81, 109, 0.5);
         color: #f9f6f2; }
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
