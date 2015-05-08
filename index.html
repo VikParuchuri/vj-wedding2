@@ -136,7 +136,7 @@
 
 		<!-- ========== OUR STORY START ========== -->
 
-		<section id="story" style="background: #f5f4ec;">
+		<section id="story">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-sm-12 heading" data-scroll-reveal>
@@ -175,10 +175,6 @@
 
 		<!-- ========== OUR STORY END ========== -->
 
-		<!-- ========== GAME START ========== -->
-
-		<!-- ========== GAME END ========== -->
-
 		<!-- ========== EVENTS START ========== -->
 
 		<section id="events" style="background: #f5f4ec;">
@@ -211,6 +207,81 @@
 		</section>
 
 		<!-- ========== EVENTS END ========== -->
+
+		<!-- ========== GAME START ========== -->
+
+		<section id="game">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-sm-12 heading" data-scroll-reveal>
+						<h2>Wedding 2048</h2>
+						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="heading">
+				  <div class="scores-container" style="visibility: hidden;">
+					<div class="score-container">0</div>
+					<div class="best-container">0</div>
+				  </div>
+				</div>
+				<div class="above-game">
+				  <p class="game-intro">Join the pictures and get to the <strong>VJ tile!</strong></p>
+				  <a class="restart-button">New Game</a>
+				</div>
+
+				<div class="game-container">
+				  <div class="game-message">
+					<p></p>
+					<div class="lower">
+						<a class="keep-playing-button">Keep going</a>
+					  <a class="retry-button">Try again</a>
+					</div>
+				  </div>
+
+				  <div class="grid-container">
+					<div class="grid-row">
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					</div>
+					<div class="grid-row">
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					</div>
+					<div class="grid-row">
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					</div>
+					<div class="grid-row">
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					  <div class="grid-cell"></div>
+					</div>
+				  </div>
+
+				  <div class="tile-container">
+
+				  </div>
+				</div>
+
+				<p class="game-explanation">
+				  <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+				</p>
+				<p class="small">
+				This is a wedding-related version of 2048, a game originally created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a>
+				</p>
+  </div>
+				</div>
+		</section>
+
+		<!-- ========== GAME END ========== -->
 
 		<!-- ========== ACOOMMODATION START ========== -->
 
@@ -450,6 +521,18 @@
 
 		<!-- jQuery Settings -->
 		<script src="js/settings.js"></script>
+
+
+	  <script src="js/bind_polyfill.js"></script>
+	  <script src="js/classlist_polyfill.js"></script>
+	  <script src="js/animframe_polyfill.js"></script>
+	  <script src="js/keyboard_input_manager.js"></script>
+	  <script src="js/html_actuator.js"></script>
+	  <script src="js/grid.js"></script>
+	  <script src="js/tile.js"></script>
+	  <script src="js/local_storage_manager.js"></script>
+	  <script src="js/game_manager.js"></script>
+	  <script src="js/application.js"></script>
 
 
 	</body>
